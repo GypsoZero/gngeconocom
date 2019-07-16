@@ -99,7 +99,7 @@ SUPERADMINS_GROUP = 'technical-admins@econocom.com'
 # The PROD server specific configurations.
 if ON_PROD:
   # The OAuth2 Client ID for the Chrome Application.
-  CHROME_CLIENT_ID = '{CHROMEOAUTH2ID}'
+  CHROME_CLIENT_ID = '861346869284-sta9l0vom3pp8kfk3ia03miptjehkipp.apps.googleusercontent.com'
   # The OAuth2 Client ID for the Web Application Frontend.
   WEB_CLIENT_ID = '861346869284-22sg16rg8trrq0fikqfjnujqfs38h5l7.apps.googleusercontent.com'
   # The location of the Client Secrets file relative to the Bazel WORKSPACE for

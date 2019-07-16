@@ -82,7 +82,7 @@ export const CHROME_ENDPOINTS: EnvironmentsVariable = {
  * NOTE: Each key must be on a single-line!
  */
 export const CHROME_PUBLIC_KEYS: EnvironmentsVariable = {
-  prod: '{PROD_CHROME_KEY_PASTE}',
+  prod: 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm9ekhz2IxN1yk3zMQmKi71XdGA7ekG/gnAUYq5RcToZLwQT/G5a7+66cmPVfZc4ffjw6seZ1cxPszZ695PBG0oL2R1KV6cVU+eymzYp9LkHDczK8uIrXY39AszTxtn+ACev/tC4G4fXQD9SfWHraDbmsEt0RTcEw/z80/UlTHHgyG7dK+C0uT0SI5Hjy8qZcfiZG/oZ+G70X0l/kuXBunO3j37tHMwaZLzlYWJ7chCgkULdJK6fFgHVGK3ZbptkQpAH8yvJIxMEIbiuAam9SrDRsCCoWYcn5O7DeIuqVDI5a8ai00gh00LIe9ZsddiZr1K4P6Lto4aMxOZRjLFtkOwIDAQAB',
   qa: '{QA_CHROME_KEY}',
   dev: '{DEV_CHROME_KEY}',
 };
@@ -239,11 +239,11 @@ export const HEARTBEAT: HeartbeatConfiguration = {
 export const TROUBLESHOOTING_INFORMATION =
 'Contact your IT department for assistance.';
 /** Phone number of IT; Placed on Manage/Troubleshoot page. */
-export const IT_CONTACT_PHONE = ['{ITPHONENUMBER}'];
+export const IT_CONTACT_PHONE = ['555-555-5555'];
 /** Website of IT; Placed on Manage/Troubleshoot page. */
-export const IT_CONTACT_WEBSITE = '{ITWEBSITE}';
+export const IT_CONTACT_WEBSITE = 'econocom.com.com';
 /** Email of IT; Placed on Manage/troubleshoot page. */
-export const IT_CONTACT_EMAIL = '{ITEMAIL}';
+export const IT_CONTACT_EMAIL = 'support@econocom.com';
 /** Failure message after 3 failure prompts occur. */
 export const FAILURE_MESSAGE = `Since this has failed a couple of times the
 application will now quit. If the issue persists contact your
